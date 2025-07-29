@@ -2,6 +2,9 @@ const env = process.env.NODE_ENV || 'development';
 const serverIP = 'localhost';
 const serverPort = 5010;
 export default {
+  COMPATY_CONTACTS: {
+    PHONE_NUMBER: '(877)355-3585',
+  },
   CUSTOMER: 'customer',
   CREATOR: 'creator',
   CONTEST_STATUS_ACTIVE: 'active',
