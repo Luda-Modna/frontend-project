@@ -9,6 +9,7 @@ import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
 import FirstNamingPlatformList from './FirstNamingPlatformList';
+import NamingAgency from './NamingAgency/NamingAgency';
 
 const Home = props => {
   const [index, setIndex] = useState(0);
@@ -111,6 +112,7 @@ const Home = props => {
                 </div>
               </div>
             </div>
+            <NamingAgency />
             <div className={styles.greyContainer}>
               <div className={styles.adv}>
                 <div className={styles.images}>

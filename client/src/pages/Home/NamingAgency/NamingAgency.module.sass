@@ -1,0 +1,69 @@
+
+.aboutAgency
+ display: flex
+ flex-direction: column
+ align-items: center
+ margin-bottom: 60px
+
+
+.textAgency
+ text-align: center
+ width: 70%
+ color: grey
+
+.namingAgencyList
+ display: flex
+ flex-direction: row
+ margin: 40px
+ gap: 20px
+ @media (max-width: 720px)
+  flex-direction: column
+    
+ 
+
+.liItem
+ display: flex
+ flex-direction: column
+ gap: 40px
+ @media (max-width: 720px)
+  flex-direction: row
+
+.imageContainer
+ padding: 20px 10px
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+ border-radius: 12px
+ max-width: 50px
+ margin: 0 auto
+
+ 
+.liText
+ display: flex
+ flex-direction: column
+ align-items: center
+ gap: 10px
+ @media (max-width: 720px)
+  align-items: flex-start
+
+.liItemParagraph
+ text-align: center
+ color: grey
+ @media (max-width: 720px)
+  text-align: left
+
+.linkButton
+ padding: 10px
+ background-color: #29d2d2
+ color: white
+ margin: 10px auto
+ display: block
+ width: 100px
+ border-radius: 10px
+ text-align: center
+ font-weight: bold
+ border: solid 2px #29d2d2
+ transition: background-color 0.3s ease, color 0.3s ease
+ &:hover
+  border: solid 2px #29d2d2
+  background-color: white
+  color: #29d2d2
+
